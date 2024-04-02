@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zadanie 6</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+                <div>Name:</div>
+                <input type="text" name="name"><br>
+                <div>Surname:</div>
+                <input type="text" name="surname"><br>
+                <div>Email:</div>
+                <input type="email" name="email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Address information</legend>
+                <div>Street:</div>
+                <input type="text" name="street"><br>
+                <div>Country:</div>
+                <select name="country">
+                    <option value>Choose...</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </select><br>
+                <div>Postal code:</div>
+                <input type="text" name="postal_code"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Order options</legend>
+                <div>Payment method:</div>
+                <input type="radio" name="payment_method" value="card">PayPal<br>
+                <input type="radio" name="payment_method" value="cash">Card
+
+                <div>Extras:</div>
+                <input type="checkbox" name="extras" value="insurance">Packaging<br>
+                <input type="checkbox" name="extras" value="guarantee">Express<br>
+            </fieldset>
+            <fieldset>
+                <legend>Comments and remarks</legend>
+                <div>Your remarks:</div>
+                <textarea name="comments" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Order">
+        </form>
+    </body>
+</html>

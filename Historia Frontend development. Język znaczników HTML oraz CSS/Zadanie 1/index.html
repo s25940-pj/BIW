@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1</title>
+</head>
+<body>
+
+    <h1>Quadratic equation</h1>
+    <p>Enter the values of the quadratic equation</p>
+    <label for="a">A:</label>
+    <input type="text" id="a" name="a"><br><br>
+    
+    <label for="b">B:</label>
+    <input type="text" id="b" name="b"><br><br>
+    
+    <label for="c">C:</label>
+    <input type="text" id="c" name="c"><br><br>
+    
+    <button onclick="calculate()" type="submit">Calculate</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+            const c = document.getElementById('c').value;
+
+            const result = -b + Math.sqrt(b * b - 4 * a * c) / 2 * a;
+            
+            if (isNaN(result)) {
+                document.getElementById('result').innerText = 'The equation has no solution';
+                return;
+            }
+
+            document.getElementById('result').innerText = result;
+        }
+    </script>
+</body>
+</html>
