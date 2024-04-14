@@ -1,0 +1,22 @@
+table {
+    text-align: center;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+.przyciski {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#stopka {
+  background-color: blue;
+  color: white;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
+

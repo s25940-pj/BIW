@@ -1,0 +1,13 @@
+a {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-right: 1px solid black;
+}
+
+.last {
+    border-right: none;
+}
+
+.menu {
+    margin: 0.5em;
+}

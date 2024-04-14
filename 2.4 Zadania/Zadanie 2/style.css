@@ -1,0 +1,24 @@
+a:hover {
+    color: red;
+}
+
+h1 {
+    background-color: lightyellow;
+    border: 2px solid red;
+    color: blue;
+
+}
+
+.zdjecie {
+    max-width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#naglowek {
+    border: 3px solid blue;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

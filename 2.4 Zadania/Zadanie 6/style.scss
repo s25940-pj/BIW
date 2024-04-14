@@ -1,0 +1,18 @@
+$dark-red: #911111;
+
+.message {
+    color: $dark-red;
+    font-family: "Roboto", sans-serif;
+    &:hover {
+        background: compliment($dark-red);
+    }
+    .message-item {
+        padding: 10px;
+        margin: 2px;
+        font: {
+            size: 0.9rem;
+            weight: bold;
+            family: sans-serif;
+          }
+    }
+}

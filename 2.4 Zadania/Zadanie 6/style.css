@@ -1,0 +1,16 @@
+.message {
+  color: #911111;
+  font-family: "Roboto", sans-serif;
+}
+.message:hover {
+  background: compliment(#911111);
+}
+.message .message-item {
+  padding: 10px;
+  margin: 2px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
